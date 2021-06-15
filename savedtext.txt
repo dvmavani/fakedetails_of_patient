@@ -1,0 +1,22 @@
+# xcel sheet entry
+row = 1
+col = 0
+pt_sheet = Workbook()
+pt_entry = pt_sheet.add_sheet('day1')
+pt_entry.write(row, 0, 'prefix')
+pt_entry.write(row, 1, 'name')
+pt_entry.write(row, 2, 'surname')
+pt_entry.write(row, 3, 'age')
+pt_entry.write(row, 4, 'disease')
+pt_entry.write(row, 5, 'department')
+pt_entry.write(row, 6, 'mobile number')
+
+row += 
+
+pt_entry.write(row, 0, prefix)
+pt_entry.write(row, 1, name)
+pt_entry.write(row, 2, surname)
+pt_entry.write(row, 3, age)
+pt_entry.write(row, 4, disease)
+pt_entry.write(row, 5, department)
+pt_entry.write(row, 6, mobile number)
